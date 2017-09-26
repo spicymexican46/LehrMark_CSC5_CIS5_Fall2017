@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Dr. Mark E. Lehr
- * Created on August 31, 2017, 11:42 PM
+ * Created on Sept 25th, 2017, 9:05 PM
  * Purpose:  Creating a class template
  */
 
