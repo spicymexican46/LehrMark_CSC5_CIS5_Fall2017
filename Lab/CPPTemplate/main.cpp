@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Dr. Mark E. Lehr
- * Created on Sept 26th, 2017, 9:05 PM
- * Purpose:  Confirm the Truth Table Results
+ * Created on Sept 25th, 2017, 9:05 PM
+ * Purpose:  Creating a class template
  */
 
 //System Libraries
@@ -18,34 +18,14 @@ using namespace std;    //Standard Name-space under which System Libraries resid
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare Variables
-    bool x,y;//Boolean Expressions
     
-    //Display the Heading
-    cout<<"X Y !X !Y X||Y X&&Y X^Y X^Y^Y X^Y^X "
-        <<"!(X||Y) !X&&!Y !(X&&Y) !X||!Y"<<endl;
+    //Initialize Variables
     
-    //Initialize Variables for the First Row
-    x=true;
-    y=true;
-    //Display the First Row
-    cout<<(x?'T':'F')<<" ";
-    cout<<(y?'T':'F')<<"  ";
-    cout<<(!x?'T':'F')<<"  ";
-    cout<<(!y?'T':'F')<<"   ";
-    cout<<(x||y?'T':'F')<<"  ";
-    cout<<endl;
+    //Input Data/Variables
     
-    //Initialize Variables for the Second Row
-    x=true;
-    y=false;
-    //Display the Second Row
-    cout<<(x?'T':'F')<<" ";
-    cout<<(y?'T':'F')<<"  ";
-    cout<<(!x?'T':'F')<<"  ";
-    cout<<(!y?'T':'F')<<"   ";
-    cout<<(x||y?'T':'F')<<"  ";
-    cout<<endl;
+    //Process or map the inputs to the outputs
     
+    //Display/Output all pertinent variables
     
     //Exit the program
     return 0;
