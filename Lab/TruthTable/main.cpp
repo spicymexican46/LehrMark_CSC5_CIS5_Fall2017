@@ -46,7 +46,6 @@ int main(int argc, char** argv) {
     cout<<(x||y?'T':'F')<<"  ";
     cout<<endl;
     
-    
     //Exit the program
     return 0;
 }
