@@ -46,7 +46,7 @@ int main(int argc, char** argv) {
     number%=TENS;
     nOnes=number;//Same as number/ONES;
     //cout<<static_cast<int>(nThsnds)<<" "<<static_cast<int>(nHudrds)
-    //        <<" "<<static_cast<int>(nTens)<<" "<<static_cast<int>(nOnes)<<endl;
+    //    <<" "<<static_cast<int>(nTens)<<" "<<static_cast<int>(nOnes)<<endl;
     
     //Display/Output all pertinent variables
     //Display The Number of 1000's

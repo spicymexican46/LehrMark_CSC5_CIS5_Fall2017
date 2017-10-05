@@ -31,27 +31,39 @@ int main(int argc, char** argv) {
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     fact*=counter;
     etox+=(pow(x,counter++)/fact);
+    
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     fact*=counter;
     etox+=(pow(x,counter++)/fact);
+    
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     fact*=counter;
     etox+=(pow(x,counter++)/fact);
+    
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     fact*=counter;
     etox+=(pow(x,counter++)/fact);
+    
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     fact*=counter;
     etox+=(pow(x,counter++)/fact);
+    
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     fact*=counter;
     etox+=(pow(x,counter++)/fact);
+    
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     fact*=counter;
     etox+=(pow(x,counter++)/fact);
+    
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     fact*=counter;
     etox+=(pow(x,counter++)/fact);
+    
+    cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
+    fact*=counter;
+    etox+=(pow(x,counter++)/fact);
+ 
     cout<<"e^"<<x<<" with "<<counter<<" term  = "<<etox<<endl;
     cout<<"e^"<<x<<" with Library function = "<<exp(x)<<endl;
     
