@@ -19,7 +19,7 @@ using namespace std;    //Standard Name-space under which System Libraries resid
 int main(int argc, char** argv) {
     //Declare Variables
     int fi,fim1,fim2;
-    int seqEnd=29,perLine=10;
+    int seqEnd=46,perLine=10;
     
     //Initialize Variables
     fim1=fim2=1; //Initialize the sequence
