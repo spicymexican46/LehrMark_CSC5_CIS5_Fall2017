@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Dr. Mark E. Lehr
  * Created on Oct 16th, 2017, 8:05 AM
- * Purpose:  Craps version 1
+ * Purpose:  Craps version 1 with Stats
  */
 
 //System Libraries

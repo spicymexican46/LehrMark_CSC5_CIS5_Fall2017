@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Dr. Mark E. Lehr
  * Created on Oct 16th, 2017, 8:05 AM
- * Purpose:  Rolling the Dice
+ * Purpose:  Rolling the Dice, check the Statistics
  */
 
 //System Libraries
@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
             n8s=0,n9s=0,n10s=0,n11s=0,n12s=0;
     
     //Initialize Variables
-    nRolls=3600000000;
+    nRolls=36000;
     
     //Process or map the inputs to the outputs
     for(unsigned int roll=1;roll<=nRolls;roll++){

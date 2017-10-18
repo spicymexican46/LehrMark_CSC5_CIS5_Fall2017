@@ -1,19 +1,19 @@
 Number of Games played  = 3600000
 Number of Games checked = 3600000
-Number of Wins          = 1773487
-Number of losses        = 1826513
-Percentage Wins         = 49.2635%
-Percentage Losses       = 50.7365%
-Number of total rolls   = 12143940
+Number of Wins          = 1774934
+Number of losses        = 1825066
+Percentage Wins         = 49.3037%
+Percentage Losses       = 50.6963%
+Number of total rolls   = 12156417
 Roll       Wins   Losses
-   2          0   100701
-   3          0   199901
-   4      99294   200507
-   5     159492   240078
-   6     227071   272514
-   7     601001        0
-   8     227016   272812
-   9     160349   239613
-  10     100038   200075
-  11     199226        0
-  12          0   100312
+   2          0    99331
+   3          0   199587
+   4     100176   200397
+   5     160028   239997
+   6     226826   273533
+   7     600169        0
+   8     227432   272395
+   9     159817   240689
+  10      99959   199309
+  11     200527        0
+  12          0    99828
