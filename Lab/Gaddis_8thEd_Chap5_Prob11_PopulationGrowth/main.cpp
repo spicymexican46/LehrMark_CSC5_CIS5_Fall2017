@@ -29,16 +29,17 @@ int main(int argc, char** argv) {
     cin>>pop>>incPop>>nYears;
     
     //Process or map the inputs to the outputs
-    popPow=pop*pow((1+incPop/100),nYears);
+    float temp=(1+incPop/100.0f);
+    popPow=pop*pow(temp,nYears);
     for(int year=1;year<=nYears;year++){
-        pop*=(1+incPop/100.0f);
+        pop*=temp;
     }
     
     //Display/Output all pertinent variables
-    cout<<"The resulting populaiton in "<<nYears<<" years = "
-            <<pop<<" people not poop"<<endl;
+    cout<<"The resulting population in "<<nYears<<" years = "
+            <<pop<<" people using a loop"<<endl;
     cout<<"  Same result population in "<<nYears<<" years = "
-            <<popPow<<" people not poop"<<endl;
+            <<popPow<<" people using the pow()"<<endl;
     
     //Exit the program
     return 0;

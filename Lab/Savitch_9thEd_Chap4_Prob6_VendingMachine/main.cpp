@@ -31,9 +31,11 @@ int main(int argc, char** argv) {
     //Initialize Variables
     
     //Input Data/Variables
-    cout<<"The Vending Machine Problem calculates the change"<<endl;
-    cout<<"Input the Price of the Product and the Amount Tendered"<<endl;
-    cin>>price>>tndrd;
+    do{
+        cout<<"The Vending Machine Problem calculates the change"<<endl;
+        cout<<"Input the Price of the Product and the Amount Tendered"<<endl;
+        cin>>price>>tndrd;
+    }while(price>tndrd);
     
     //Calculate the change
     change=(tndrd-price+HLFPNY)*CNVPNY;//Accounts for float inaccuracy
