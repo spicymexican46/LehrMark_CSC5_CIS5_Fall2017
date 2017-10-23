@@ -1,0 +1,21 @@
+Number of Games played = 3600000
+Number of Games played = 3600000
+Number of wins         = 1774569
+Number of losses       = 1825431
+Percentage wins        = 49.2936%
+Percentage losses      = 50.7064%
+Average Throws/Game    = 3.37627
+Max Throws in a Game   = 46
+Throw    Wins  Losses   Total
+  2         0  100275  100275
+  3         0  199649  199649
+  4    100346  200569  300915
+  5    160231  240684  400915
+  6    226245  272130  498375
+  7    600380       0  600380
+  8    227804  271633  499437
+  9    159919  240427  400346
+ 10     99699  200041  299740
+ 11    199945       0  199945
+ 12         0  100023  100023
+Total Games using wins and losses = 3600000
