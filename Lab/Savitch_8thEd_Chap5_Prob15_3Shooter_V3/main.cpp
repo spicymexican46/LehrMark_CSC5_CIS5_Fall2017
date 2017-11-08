@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     pkillB=1.0f/2;
     pkillC=1.0f;
     nWinA=nWinB=nWinC=0;
-    nGames=1000000;
+    nGames=100000000;
     
     //Take Statistics on who is left alive how often
     for(int game=1;game<=nGames;game++){
@@ -73,6 +73,9 @@ int main(int argc, char** argv) {
 //000000011111111112222222222333333333344444444445555555555666666666677777777778
 //345678901234567890123456789012345678901234567890123456789012345678901234567890
 //                     Shoot
+//Description
+//  Determines who to shoot and likelihood of the
+//  target dying.
 //Input:
 //      The shooter and their Accuracy
 //      a -> alive true or false
@@ -97,6 +100,9 @@ void shoot(bool a,float pka,bool &b,bool &c){
 //000000011111111112222222222333333333344444444445555555555666666666677777777778
 //345678901234567890123456789012345678901234567890123456789012345678901234567890
 //                     Random Probability
+//Description
+//  Creating a floating point pseudo-random number function scaled between
+//  one and zero
 //Input:
 //      None
 //Output:
