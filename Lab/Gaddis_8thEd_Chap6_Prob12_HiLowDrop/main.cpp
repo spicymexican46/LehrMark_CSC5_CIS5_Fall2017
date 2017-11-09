@@ -15,9 +15,9 @@ using namespace std;    //Standard Name-space under which System Libraries resid
 
 //Function Prototypes
 void  gtScore(float &,float &,float &, float &, float &);
-float fndLwst(float,float,float, float, float);
-float fndLgst(float,float,float, float, float);
-float ovalScr(float,float,float, float, float);
+float fndLwst(float,float,float,float, float);
+float fndLgst(float,float,float,float, float);
+float ovalScr(float,float,float,float, float);
 
 //Execution Begins Here!
 int main(int argc, char** argv) {
