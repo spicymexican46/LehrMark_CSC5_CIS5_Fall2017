@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=retirement_v1
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/retirement_v1
+CND_ARTIFACT_NAME_Debug=home_v1_computations
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/home_v1_computations
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=retirementv1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/retirementv1.tar
+CND_PACKAGE_NAME_Debug=homev1computations.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/homev1computations.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=retirement_v1
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/retirement_v1
+CND_ARTIFACT_NAME_Release=home_v1_computations
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/home_v1_computations
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=retirementv1.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/retirementv1.tar
+CND_PACKAGE_NAME_Release=homev1computations.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/homev1computations.tar
 #
 # include compiler specific variables
 #

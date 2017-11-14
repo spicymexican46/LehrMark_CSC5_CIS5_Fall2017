@@ -47,10 +47,14 @@ int main(int argc, char** argv) {
     cout<<"Required Savings = $"<<savings<<endl;
     cout<<"Deposit Amount   = $  "<<deposit*salary<<endl<<endl;
     cout<<"Year      Savings  Int Earned    Deposit"<<endl;
-    for(int indx=0;indx<SIZE&&retAcct[indx]<savings;indx++){
+    int indx;
+    for(indx=0;indx<SIZE&&retAcct[indx]<savings;indx++){
     cout<<setw(4)<<byYear[indx]<<setw(13)<<retAcct[indx]<<setw(12)
                 <<intErnd[indx]<<setw(11)<<depAmt[indx]<<endl;
     }
+    cout<<endl;
+    cout<<"You hit your Savings Goal in Year = "<<byYear[indx]<<endl;
+    cout<<"With an account total = $"<<retAcct[indx]<<endl;
     
     //Exit the program
     return 0;

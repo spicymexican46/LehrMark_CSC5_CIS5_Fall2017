@@ -46,7 +46,7 @@ int main(int argc, char** argv) {
 }
 
 void rtrmnt(int strtYr,float salary,float invRate,float savings,float deposit,
-        int byYear[],float retAcct[],float intErnd[],float depAmt[],int SIZE){
+    int byYear[],float retAcct[],float intErnd[],float depAmt[],int SIZE){
     //Process or map the inputs to the outputs
     for(int indx=0;indx<SIZE;indx++){
         byYear[indx]=indx+strtYr;
@@ -57,7 +57,7 @@ void rtrmnt(int strtYr,float salary,float invRate,float savings,float deposit,
 }
 
 void disply(int strtYr,float salary,float invRate,float savings,float deposit,
-        int byYear[],float retAcct[],float intErnd[],float depAmt[],int SIZE){
+    int byYear[],float retAcct[],float intErnd[],float depAmt[],int SIZE){
     //Display the Table
     cout<<fixed<<setprecision(2)<<showpoint;
     cout<<"Retirement Table"<<endl;
