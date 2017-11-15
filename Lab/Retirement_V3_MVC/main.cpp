@@ -49,7 +49,7 @@ int main(int argc, char** argv) {
     cout<<"Year      Savings  Int Earned    Deposit"<<endl;
     int indx;
     for(indx=0;indx<SIZE&&retAcct[indx]<savings;indx++){
-    cout<<setw(4)<<byYear[indx]<<setw(13)<<retAcct[indx]<<setw(12)
+        cout<<setw(4)<<byYear[indx]<<setw(13)<<retAcct[indx]<<setw(12)
                 <<intErnd[indx]<<setw(11)<<depAmt[indx]<<endl;
     }
     cout<<endl;
